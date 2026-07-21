@@ -6,7 +6,7 @@ export default async function Home() {
 
   return (
     <div className="flex flex-1 flex-col items-center justify-center bg-zinc-50 px-6 py-24 font-sans dark:bg-black">
-      <main className="flex w-full max-w-md flex-col items-center gap-6 text-center">
+      <main className="flex w-full max-w-xl flex-col items-center gap-6 text-center">
         <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100 dark:bg-green-500/15">
           <svg
             className="h-8 w-8 text-green-600 dark:text-green-400"
@@ -24,8 +24,8 @@ export default async function Home() {
         <h1 className="text-3xl font-semibold tracking-tight text-black dark:text-zinc-50">
           Congratulations!
         </h1>
-        <p className="max-w-sm text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-          You&apos;ve successfully signed in through Agent ID.
+        <p className="whitespace-nowrap text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+          You&apos;ve successfully signed in through Agent&nbsp;ID.
         </p>
         {email && (
           <p className="rounded-full bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300">
